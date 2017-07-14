@@ -1,0 +1,82 @@
+/*#zhedang{
+	width: 1000px;
+	height: 1000px;
+	background: #fff;
+}*/
+#jisuanqi{
+	width: 600px;
+	height: 700px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+#top{
+	border-radius: 50px;
+	width: 600px;
+	height: 50px;
+	background: bisque;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 20px;
+}
+
+#top input{
+	width: 550px;
+	height: 70px;
+	font-size: 40px;
+	margin-top: -2px;
+	background: black;
+	color: white;
+	border-radius: 15px;
+    outline: none;
+}
+
+
+#bnt{
+	width: 600px;
+	height: 600px;
+}
+
+#bnt .row{
+	display: flex;
+	height: 120px;
+	
+	justify-content: space-around;
+	align-items: center;
+	
+	
+}
+#bnt .row div{
+	width: 100px;
+	height:100px;
+	border-radius: 20px;
+	background: coral;
+	text-align: center;
+	line-height: 100px;
+	margin-top: 50px;
+	font-size: 50px;
+	/*border: 1px solid #333;*/
+	
+}
+
+#bnt .row div:hover{
+	cursor: pointer;
+	box-shadow: 0px 5px 10px #333;
+	border: 1px solid skyblue	
+}
+
+
+#bnt .row #num0{
+	width: 250px;
+}
+
+#jisuanqi{
+	border-radius: 50px;
+	box-shadow: 10px 10px 10px #333;
+	background: bisque;
+	border: 5px solid #FF7F50
+    
+}
+
+
